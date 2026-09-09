@@ -1,0 +1,10 @@
+.skills-section { background: var(--surface); }
+.skills-layout { display: grid; grid-template-columns: 1.1fr .9fr; gap: 10%; }
+.skills-layout h2 { font-size: clamp(2.4rem, 5vw, 4.6rem); margin: 1.2rem 0 0; max-width: 700px; }
+.skills-list { border-top: 1px solid var(--line); }
+.skill-item { border-bottom: 1px solid var(--line); padding: 1.1rem 0; display: flex; gap: 1.2rem; align-items: center; font-family: Georgia, serif; font-size: 1.5rem; }
+.skill-item span { color: var(--accent); font: .65rem 'Trebuchet MS', sans-serif; letter-spacing: .1em; }
+@media (max-width: 700px) {
+  .skills-layout { display: block; }
+  .skills-list { margin-top: 3rem; }
+}

@@ -1,0 +1,6 @@
+.contact-section { background: var(--accent); color: #fff8ef; padding: 140px 0; }
+.contact-section .eyebrow { color: #fff8ef; opacity: .7; }
+.contact-section h2 { font-size: clamp(3.2rem, 8vw, 8rem); margin: 2rem 0 3rem; }
+.contact-section h2 em { color: #fff8ef; }
+.contact-email { font: 1.1rem Georgia, serif; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.55); padding-bottom: .6rem; }
+@media (max-width: 700px) { .contact-section { padding: 100px 0; } }

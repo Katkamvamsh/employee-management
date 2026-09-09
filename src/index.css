@@ -1,0 +1,30 @@
+:root {
+  --bg: #f5f4ef;
+  --surface: #ebe9e1;
+  --text: #1d2420;
+  --muted: #6d756e;
+  --line: #d9d8d0;
+  --accent: #e05238;
+  --accent-soft: #f2d8cf;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root.dark-mode {
+  --bg: #18201c;
+  --surface: #222c27;
+  --text: #f1f0e8;
+  --muted: #aeb7ad;
+  --line: #39453e;
+  --accent-soft: #58372f;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+a { color: inherit; }
+button { font: inherit; }
