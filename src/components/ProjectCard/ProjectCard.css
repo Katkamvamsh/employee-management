@@ -1,6 +1,6 @@
 .project-card { border-top: 1px solid var(--text); }
 .project-visual { height: 250px; background: var(--accent-soft); color: var(--accent); padding: 1rem; display: flex; justify-content: space-between; font: italic 3.5rem Georgia, serif; }
-.project-arrow { font: 1.4rem 'Trebuchet MS', sans-serif; }
+.project-arrow { font: 1.4rem 'Trebuchet MS', sans-serif; }  
 .project-info { padding-top: 1.25rem; }
 .project-info h3 { font-size: 1.8rem; margin-bottom: .7rem; }
 .project-info p { color: var(--muted); font-size: .9rem; line-height: 1.6; margin-bottom: 1rem; }
